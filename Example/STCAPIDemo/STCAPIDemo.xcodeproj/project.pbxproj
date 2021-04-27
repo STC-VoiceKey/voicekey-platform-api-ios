@@ -38,6 +38,8 @@
 		C9B3BA6025D681C00025BA4B /* AddPersonsFromGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3BA5F25D681C00025BA4B /* AddPersonsFromGroupView.swift */; };
 		C9B7D37325C46577001D41BD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D37225C46577001D41BD /* GroupView.swift */; };
 		C9B7D37825C94449001D41BD /* GroupListIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D37725C94449001D41BD /* GroupListIView.swift */; };
+		C9CE9A8526383303008C8B1E /* VoiceKeyPortal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE9A8426383303008C8B1E /* VoiceKeyPortal.framework */; };
+		C9CE9A8626383303008C8B1E /* VoiceKeyPortal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE9A8426383303008C8B1E /* VoiceKeyPortal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E981C3C8005E94187E75BC3D /* libPods-STCAPIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B92905090A07FB07F7687052 /* libPods-STCAPIDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C9CE9A8626383303008C8B1E /* VoiceKeyPortal.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +115,7 @@
 		C9B3BA5F25D681C00025BA4B /* AddPersonsFromGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonsFromGroupView.swift; sourceTree = "<group>"; };
 		C9B7D37225C46577001D41BD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		C9B7D37725C94449001D41BD /* GroupListIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListIView.swift; sourceTree = "<group>"; };
+		C9CE9A8426383303008C8B1E /* VoiceKeyPortal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VoiceKeyPortal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E981C3C8005E94187E75BC3D /* libPods-STCAPIDemo.a in Frameworks */,
+				C9CE9A8526383303008C8B1E /* VoiceKeyPortal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +157,7 @@
 		4A26623498EF9F3462DE00A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9CE9A8426383303008C8B1E /* VoiceKeyPortal.framework */,
 				B92905090A07FB07F7687052 /* libPods-STCAPIDemo.a */,
 			);
 			name = Frameworks;

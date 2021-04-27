@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import VoiceKeyPlatformAPI
+import VoiceKeyPortal
 
 struct PrivilegesView: View {
     @State var dataSource:Array<PrivilegeItem> = []

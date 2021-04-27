@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9C3C1B7263815BD0071DF23"
-               BuildableName = "libVoiceKeyPortal.a"
+               BlueprintIdentifier = "C9CE9A38263831C1008C8B1E"
+               BuildableName = "VoiceKeyPortal.framework"
                BlueprintName = "VoiceKeyPortal"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

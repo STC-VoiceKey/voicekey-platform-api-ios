@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-import VoiceKeyPlatformAPI
+import VoiceKeyPortal
 
 struct SessionView: View {
     @State var isSessionExists = false

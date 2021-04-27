@@ -8,68 +8,77 @@
 
 /* Begin PBXBuildFile section */
 		10668BD99DF0F5917D862EFC5AFCFC83 /* Pods-STCAPIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1063813B8D39809D07460A4D7DEE56B /* Pods-STCAPIDemo-dummy.m */; };
-		C9C3C1F7263817B70071DF23 /* VoiceKeyPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C3C1EE263817B70071DF23 /* VoiceKeyPlatform.framework */; };
-		C9C3C1FC263817B70071DF23 /* VoiceKeyPlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C1FB263817B70071DF23 /* VoiceKeyPlatformTests.swift */; };
-		C9C3C1FE263817B70071DF23 /* VoiceKeyPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C3C1F0263817B70071DF23 /* VoiceKeyPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9C3C2232638180F0071DF23 /* APIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C20D2638180F0071DF23 /* APIHelpers.swift */; };
-		C9C3C2242638180F0071DF23 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C20E2638180F0071DF23 /* UserDefaultsHelper.swift */; };
-		C9C3C2252638180F0071DF23 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C20F2638180F0071DF23 /* BaseService.swift */; };
-		C9C3C2262638180F0071DF23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9C3C2112638180F0071DF23 /* README.md */; };
-		C9C3C2272638180F0071DF23 /* SessionIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2142638180F0071DF23 /* SessionIdProvider.swift */; };
-		C9C3C2282638180F0071DF23 /* AuthParamProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2152638180F0071DF23 /* AuthParamProvider.swift */; };
-		C9C3C2292638180F0071DF23 /* SessionURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2162638180F0071DF23 /* SessionURLProvider.swift */; };
-		C9C3C22A2638180F0071DF23 /* APIKeyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2172638180F0071DF23 /* APIKeyProvider.swift */; };
-		C9C3C22B2638180F0071DF23 /* SessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2182638180F0071DF23 /* SessionRequest.swift */; };
-		C9C3C22C2638180F0071DF23 /* SessionResultAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2192638180F0071DF23 /* SessionResultAdapter.swift */; };
-		C9C3C22D2638180F0071DF23 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C21A2638180F0071DF23 /* SessionService.swift */; };
-		C9C3C22E2638180F0071DF23 /* GroupURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C21D2638180F0071DF23 /* GroupURLProvider.swift */; };
-		C9C3C22F2638180F0071DF23 /* PersonIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C21E2638180F0071DF23 /* PersonIdProvider.swift */; };
-		C9C3C2302638180F0071DF23 /* GroupIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C21F2638180F0071DF23 /* GroupIdProvider.swift */; };
-		C9C3C2312638180F0071DF23 /* GroupListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2202638180F0071DF23 /* GroupListAdapter.swift */; };
-		C9C3C2322638180F0071DF23 /* GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2212638180F0071DF23 /* GroupRequest.swift */; };
-		C9C3C2332638180F0071DF23 /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C2222638180F0071DF23 /* GroupService.swift */; };
-		C9C3C263263819CE0071DF23 /* VoiceKeyPlatform.framework in Sources */ = {isa = PBXBuildFile; fileRef = C9C3C1EE263817B70071DF23 /* VoiceKeyPlatform.framework */; };
+		C9CE9A42263831C2008C8B1E /* VoiceKeyPortal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE9A39263831C1008C8B1E /* VoiceKeyPortal.framework */; };
+		C9CE9A47263831C2008C8B1E /* VoiceKeyPortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A46263831C2008C8B1E /* VoiceKeyPortalTests.swift */; };
+		C9CE9A69263831F1008C8B1E /* GroupURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A55263831F1008C8B1E /* GroupURLProvider.swift */; };
+		C9CE9A6A263831F1008C8B1E /* PersonIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A56263831F1008C8B1E /* PersonIdProvider.swift */; };
+		C9CE9A6B263831F1008C8B1E /* GroupIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A57263831F1008C8B1E /* GroupIdProvider.swift */; };
+		C9CE9A6C263831F1008C8B1E /* GroupListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A58263831F1008C8B1E /* GroupListAdapter.swift */; };
+		C9CE9A6D263831F1008C8B1E /* GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A59263831F1008C8B1E /* GroupRequest.swift */; };
+		C9CE9A6E263831F1008C8B1E /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A5A263831F1008C8B1E /* GroupService.swift */; };
+		C9CE9A6F263831F1008C8B1E /* APIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A5C263831F1008C8B1E /* APIHelpers.swift */; };
+		C9CE9A70263831F1008C8B1E /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A5D263831F1008C8B1E /* UserDefaultsHelper.swift */; };
+		C9CE9A71263831F1008C8B1E /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A5E263831F1008C8B1E /* BaseService.swift */; };
+		C9CE9A72263831F1008C8B1E /* SessionIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A62263831F1008C8B1E /* SessionIdProvider.swift */; };
+		C9CE9A73263831F1008C8B1E /* AuthParamProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A63263831F1008C8B1E /* AuthParamProvider.swift */; };
+		C9CE9A74263831F1008C8B1E /* SessionURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A64263831F1008C8B1E /* SessionURLProvider.swift */; };
+		C9CE9A75263831F1008C8B1E /* APIKeyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A65263831F1008C8B1E /* APIKeyProvider.swift */; };
+		C9CE9A76263831F1008C8B1E /* SessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A66263831F1008C8B1E /* SessionRequest.swift */; };
+		C9CE9A77263831F1008C8B1E /* SessionResultAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A67263831F1008C8B1E /* SessionResultAdapter.swift */; };
+		C9CE9A78263831F1008C8B1E /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9A68263831F1008C8B1E /* SessionService.swift */; };
+		C9CE9AC42638388E008C8B1E /* VoiceKeyPortal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE9AC02638388D008C8B1E /* VoiceKeyPortal-dummy.m */; };
+		C9CE9AC52638388E008C8B1E /* VoiceKeyPortal-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C9CE9AC12638388D008C8B1E /* VoiceKeyPortal-prefix.pch */; };
+		C9CE9AC62638388E008C8B1E /* VoiceKeyPortal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CE9AC22638388E008C8B1E /* VoiceKeyPortal-umbrella.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C9C3C1F8263817B70071DF23 /* PBXContainerItemProxy */ = {
+		C9CE9A43263831C2008C8B1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9C3C1ED263817B70071DF23;
-			remoteInfo = VoiceKeyPlatform;
+			remoteGlobalIDString = C9CE9A38263831C1008C8B1E;
+			remoteInfo = VoiceKeyPortal;
+		};
+		C9CE9A7F2638321D008C8B1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CE9A38263831C1008C8B1E;
+			remoteInfo = VoiceKeyPortal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		005841F65B3FD9B80EE38838D8B0E0ED /* Pods-STCAPIDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STCAPIDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		427C7FC9E6AEA498C4E65BD82349BC17 /* VoiceKeyPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceKeyPortal.debug.xcconfig; sourceTree = "<group>"; };
+		10AF214BA4DA12F68682EBDBBDA0A280 /* VoiceKeyPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceKeyPortal.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C3AFE073E39AF0DDE1C77698FCF47241 /* VoiceKeyPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceKeyPortal.release.xcconfig; sourceTree = "<group>"; };
+		9DC0E99C8AB92AA359272AC0E4B95B91 /* VoiceKeyPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceKeyPortal.debug.xcconfig; sourceTree = "<group>"; };
 		C5867C2A5E1FB18CA18A566B1FCB93A9 /* Pods-STCAPIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STCAPIDemo.release.xcconfig"; sourceTree = "<group>"; };
-		C9C3C1EE263817B70071DF23 /* VoiceKeyPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VoiceKeyPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9C3C1F0263817B70071DF23 /* VoiceKeyPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceKeyPlatform.h; sourceTree = "<group>"; };
-		C9C3C1F1263817B70071DF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C3C1F6263817B70071DF23 /* VoiceKeyPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceKeyPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9C3C1FB263817B70071DF23 /* VoiceKeyPlatformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceKeyPlatformTests.swift; sourceTree = "<group>"; };
-		C9C3C1FD263817B70071DF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C3C20D2638180F0071DF23 /* APIHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelpers.swift; sourceTree = "<group>"; };
-		C9C3C20E2638180F0071DF23 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
-		C9C3C20F2638180F0071DF23 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
-		C9C3C2112638180F0071DF23 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C9C3C2142638180F0071DF23 /* SessionIdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionIdProvider.swift; sourceTree = "<group>"; };
-		C9C3C2152638180F0071DF23 /* AuthParamProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthParamProvider.swift; sourceTree = "<group>"; };
-		C9C3C2162638180F0071DF23 /* SessionURLProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionURLProvider.swift; sourceTree = "<group>"; };
-		C9C3C2172638180F0071DF23 /* APIKeyProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeyProvider.swift; sourceTree = "<group>"; };
-		C9C3C2182638180F0071DF23 /* SessionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionRequest.swift; sourceTree = "<group>"; };
-		C9C3C2192638180F0071DF23 /* SessionResultAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionResultAdapter.swift; sourceTree = "<group>"; };
-		C9C3C21A2638180F0071DF23 /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
-		C9C3C21D2638180F0071DF23 /* GroupURLProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupURLProvider.swift; sourceTree = "<group>"; };
-		C9C3C21E2638180F0071DF23 /* PersonIdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonIdProvider.swift; sourceTree = "<group>"; };
-		C9C3C21F2638180F0071DF23 /* GroupIdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupIdProvider.swift; sourceTree = "<group>"; };
-		C9C3C2202638180F0071DF23 /* GroupListAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListAdapter.swift; sourceTree = "<group>"; };
-		C9C3C2212638180F0071DF23 /* GroupRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRequest.swift; sourceTree = "<group>"; };
-		C9C3C2222638180F0071DF23 /* GroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
+		C9CE9A39263831C1008C8B1E /* VoiceKeyPortal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VoiceKeyPortal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CE9A3C263831C1008C8B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CE9A41263831C1008C8B1E /* VoiceKeyPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceKeyPortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CE9A46263831C2008C8B1E /* VoiceKeyPortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceKeyPortalTests.swift; sourceTree = "<group>"; };
+		C9CE9A48263831C2008C8B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CE9A55263831F1008C8B1E /* GroupURLProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupURLProvider.swift; sourceTree = "<group>"; };
+		C9CE9A56263831F1008C8B1E /* PersonIdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonIdProvider.swift; sourceTree = "<group>"; };
+		C9CE9A57263831F1008C8B1E /* GroupIdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupIdProvider.swift; sourceTree = "<group>"; };
+		C9CE9A58263831F1008C8B1E /* GroupListAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListAdapter.swift; sourceTree = "<group>"; };
+		C9CE9A59263831F1008C8B1E /* GroupRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRequest.swift; sourceTree = "<group>"; };
+		C9CE9A5A263831F1008C8B1E /* GroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
+		C9CE9A5C263831F1008C8B1E /* APIHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelpers.swift; sourceTree = "<group>"; };
+		C9CE9A5D263831F1008C8B1E /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		C9CE9A5E263831F1008C8B1E /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		C9CE9A62263831F1008C8B1E /* SessionIdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionIdProvider.swift; sourceTree = "<group>"; };
+		C9CE9A63263831F1008C8B1E /* AuthParamProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthParamProvider.swift; sourceTree = "<group>"; };
+		C9CE9A64263831F1008C8B1E /* SessionURLProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionURLProvider.swift; sourceTree = "<group>"; };
+		C9CE9A65263831F1008C8B1E /* APIKeyProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeyProvider.swift; sourceTree = "<group>"; };
+		C9CE9A66263831F1008C8B1E /* SessionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionRequest.swift; sourceTree = "<group>"; };
+		C9CE9A67263831F1008C8B1E /* SessionResultAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionResultAdapter.swift; sourceTree = "<group>"; };
+		C9CE9A68263831F1008C8B1E /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		C9CE9ABF2638388D008C8B1E /* VoiceKeyPortal.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = VoiceKeyPortal.modulemap; sourceTree = "<group>"; };
+		C9CE9AC02638388D008C8B1E /* VoiceKeyPortal-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VoiceKeyPortal-dummy.m"; sourceTree = "<group>"; };
+		C9CE9AC12638388D008C8B1E /* VoiceKeyPortal-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VoiceKeyPortal-prefix.pch"; sourceTree = "<group>"; };
+		C9CE9AC22638388E008C8B1E /* VoiceKeyPortal-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VoiceKeyPortal-umbrella.h"; sourceTree = "<group>"; };
 		D1063813B8D39809D07460A4D7DEE56B /* Pods-STCAPIDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STCAPIDemo-dummy.m"; sourceTree = "<group>"; };
 		D741CD175C747436324B15893DE5AA45 /* Pods-STCAPIDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STCAPIDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9124967F42D809ACC9EC679E9D279EF /* libPods-STCAPIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STCAPIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,29 +93,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C3C1EB263817B70071DF23 /* Frameworks */ = {
+		C9CE9A36263831C1008C8B1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C3C1F3263817B70071DF23 /* Frameworks */ = {
+		C9CE9A3E263831C1008C8B1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C3C1F7263817B70071DF23 /* VoiceKeyPlatform.framework in Frameworks */,
+				C9CE9A42263831C2008C8B1E /* VoiceKeyPortal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AB8F992EB19ECF793B7F0C13CFD5751 /* Support Files */ = {
+		2FDDC60CD45C7C8386E835B8018C3F1A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				427C7FC9E6AEA498C4E65BD82349BC17 /* VoiceKeyPortal.debug.xcconfig */,
-				C3AFE073E39AF0DDE1C77698FCF47241 /* VoiceKeyPortal.release.xcconfig */,
+				C9CE9A3A263831C1008C8B1E /* VoiceKeyPortal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75BC3E8BCF28157211F058F523701559 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9AC02638388D008C8B1E /* VoiceKeyPortal-dummy.m */,
+				C9CE9AC12638388D008C8B1E /* VoiceKeyPortal-prefix.pch */,
+				C9CE9AC22638388E008C8B1E /* VoiceKeyPortal-umbrella.h */,
+				C9CE9ABF2638388D008C8B1E /* VoiceKeyPortal.modulemap */,
+				9DC0E99C8AB92AA359272AC0E4B95B91 /* VoiceKeyPortal.debug.xcconfig */,
+				10AF214BA4DA12F68682EBDBBDA0A280 /* VoiceKeyPortal.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VoiceKeyPortal";
@@ -125,14 +146,6 @@
 			path = "Target Support Files/Pods-STCAPIDemo";
 			sourceTree = "<group>";
 		};
-		8E26CC9932963A63F74F7C6608D2DB7E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CD156F5B3F6A828578CCB7CEAC3EEE28 /* VoiceKeyPortal */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		9F8A2EC70C8ECFCCC7CB9E42D6F60185 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,111 +158,105 @@
 			isa = PBXGroup;
 			children = (
 				D9124967F42D809ACC9EC679E9D279EF /* libPods-STCAPIDemo.a */,
-				C9C3C1EE263817B70071DF23 /* VoiceKeyPlatform.framework */,
-				C9C3C1F6263817B70071DF23 /* VoiceKeyPlatformTests.xctest */,
+				C9CE9A39263831C1008C8B1E /* VoiceKeyPortal.framework */,
+				C9CE9A41263831C1008C8B1E /* VoiceKeyPortalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9C3C1EF263817B70071DF23 /* VoiceKeyPlatform */ = {
+		C9CE9A3A263831C1008C8B1E /* VoiceKeyPortal */ = {
 			isa = PBXGroup;
 			children = (
-				C9C3C21B2638180F0071DF23 /* Group */,
-				C9C3C20C2638180F0071DF23 /* Helpers */,
-				C9C3C2102638180F0071DF23 /* MediaStorage */,
-				C9C3C2112638180F0071DF23 /* README.md */,
-				C9C3C2122638180F0071DF23 /* Session */,
-				C9C3C1F0263817B70071DF23 /* VoiceKeyPlatform.h */,
-				C9C3C1F1263817B70071DF23 /* Info.plist */,
-			);
-			path = VoiceKeyPlatform;
-			sourceTree = "<group>";
-		};
-		C9C3C1FA263817B70071DF23 /* VoiceKeyPlatformTests */ = {
-			isa = PBXGroup;
-			children = (
-				C9C3C1FB263817B70071DF23 /* VoiceKeyPlatformTests.swift */,
-				C9C3C1FD263817B70071DF23 /* Info.plist */,
-			);
-			path = VoiceKeyPlatformTests;
-			sourceTree = "<group>";
-		};
-		C9C3C20C2638180F0071DF23 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				C9C3C20D2638180F0071DF23 /* APIHelpers.swift */,
-				C9C3C20E2638180F0071DF23 /* UserDefaultsHelper.swift */,
-				C9C3C20F2638180F0071DF23 /* BaseService.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		C9C3C2102638180F0071DF23 /* MediaStorage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MediaStorage;
-			sourceTree = "<group>";
-		};
-		C9C3C2122638180F0071DF23 /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				C9C3C2132638180F0071DF23 /* UserDefaults */,
-				C9C3C2182638180F0071DF23 /* SessionRequest.swift */,
-				C9C3C2192638180F0071DF23 /* SessionResultAdapter.swift */,
-				C9C3C21A2638180F0071DF23 /* SessionService.swift */,
-			);
-			path = Session;
-			sourceTree = "<group>";
-		};
-		C9C3C2132638180F0071DF23 /* UserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				C9C3C2142638180F0071DF23 /* SessionIdProvider.swift */,
-				C9C3C2152638180F0071DF23 /* AuthParamProvider.swift */,
-				C9C3C2162638180F0071DF23 /* SessionURLProvider.swift */,
-				C9C3C2172638180F0071DF23 /* APIKeyProvider.swift */,
-			);
-			path = UserDefaults;
-			sourceTree = "<group>";
-		};
-		C9C3C21B2638180F0071DF23 /* Group */ = {
-			isa = PBXGroup;
-			children = (
-				C9C3C21C2638180F0071DF23 /* UserDefaults */,
-				C9C3C2202638180F0071DF23 /* GroupListAdapter.swift */,
-				C9C3C2212638180F0071DF23 /* GroupRequest.swift */,
-				C9C3C2222638180F0071DF23 /* GroupService.swift */,
-			);
-			path = Group;
-			sourceTree = "<group>";
-		};
-		C9C3C21C2638180F0071DF23 /* UserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				C9C3C21D2638180F0071DF23 /* GroupURLProvider.swift */,
-				C9C3C21E2638180F0071DF23 /* PersonIdProvider.swift */,
-				C9C3C21F2638180F0071DF23 /* GroupIdProvider.swift */,
-			);
-			path = UserDefaults;
-			sourceTree = "<group>";
-		};
-		CD156F5B3F6A828578CCB7CEAC3EEE28 /* VoiceKeyPortal */ = {
-			isa = PBXGroup;
-			children = (
-				0AB8F992EB19ECF793B7F0C13CFD5751 /* Support Files */,
+				C9CE9A53263831F1008C8B1E /* Group */,
+				C9CE9A5B263831F1008C8B1E /* Helpers */,
+				C9CE9A5F263831F1008C8B1E /* MediaStorage */,
+				C9CE9A60263831F1008C8B1E /* Session */,
+				75BC3E8BCF28157211F058F523701559 /* Support Files */,
+				C9CE9A3C263831C1008C8B1E /* Info.plist */,
 			);
 			path = VoiceKeyPortal;
+			sourceTree = "<group>";
+		};
+		C9CE9A45263831C2008C8B1E /* VoiceKeyPortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9A46263831C2008C8B1E /* VoiceKeyPortalTests.swift */,
+				C9CE9A48263831C2008C8B1E /* Info.plist */,
+			);
+			path = VoiceKeyPortalTests;
+			sourceTree = "<group>";
+		};
+		C9CE9A53263831F1008C8B1E /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9A54263831F1008C8B1E /* UserDefaults */,
+				C9CE9A58263831F1008C8B1E /* GroupListAdapter.swift */,
+				C9CE9A59263831F1008C8B1E /* GroupRequest.swift */,
+				C9CE9A5A263831F1008C8B1E /* GroupService.swift */,
+			);
+			name = Group;
+			path = VoiceKeyPortal/Group;
+			sourceTree = "<group>";
+		};
+		C9CE9A54263831F1008C8B1E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9A55263831F1008C8B1E /* GroupURLProvider.swift */,
+				C9CE9A56263831F1008C8B1E /* PersonIdProvider.swift */,
+				C9CE9A57263831F1008C8B1E /* GroupIdProvider.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		C9CE9A5B263831F1008C8B1E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9A5C263831F1008C8B1E /* APIHelpers.swift */,
+				C9CE9A5D263831F1008C8B1E /* UserDefaultsHelper.swift */,
+				C9CE9A5E263831F1008C8B1E /* BaseService.swift */,
+			);
+			name = Helpers;
+			path = VoiceKeyPortal/Helpers;
+			sourceTree = "<group>";
+		};
+		C9CE9A5F263831F1008C8B1E /* MediaStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MediaStorage;
+			path = VoiceKeyPortal/MediaStorage;
+			sourceTree = "<group>";
+		};
+		C9CE9A60263831F1008C8B1E /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9A61263831F1008C8B1E /* UserDefaults */,
+				C9CE9A66263831F1008C8B1E /* SessionRequest.swift */,
+				C9CE9A67263831F1008C8B1E /* SessionResultAdapter.swift */,
+				C9CE9A68263831F1008C8B1E /* SessionService.swift */,
+			);
+			name = Session;
+			path = VoiceKeyPortal/Session;
+			sourceTree = "<group>";
+		};
+		C9CE9A61263831F1008C8B1E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE9A62263831F1008C8B1E /* SessionIdProvider.swift */,
+				C9CE9A63263831F1008C8B1E /* AuthParamProvider.swift */,
+				C9CE9A64263831F1008C8B1E /* SessionURLProvider.swift */,
+				C9CE9A65263831F1008C8B1E /* APIKeyProvider.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C9C3C1EF263817B70071DF23 /* VoiceKeyPlatform */,
-				C9C3C1FA263817B70071DF23 /* VoiceKeyPlatformTests */,
+				C9CE9A45263831C2008C8B1E /* VoiceKeyPortalTests */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				8E26CC9932963A63F74F7C6608D2DB7E /* Pods */,
+				2FDDC60CD45C7C8386E835B8018C3F1A /* Pods */,
 				A4258F05A618A3C938DE947405147F28 /* Products */,
 				9F8A2EC70C8ECFCCC7CB9E42D6F60185 /* Targets Support Files */,
 			);
@@ -272,11 +279,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C3C1E9263817B70071DF23 /* Headers */ = {
+		C9CE9A34263831C1008C8B1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C3C1FE263817B70071DF23 /* VoiceKeyPlatform.h in Headers */,
+				C9CE9AC52638388E008C8B1E /* VoiceKeyPortal-prefix.pch in Headers */,
+				C9CE9AC62638388E008C8B1E /* VoiceKeyPortal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,46 +302,47 @@
 			buildRules = (
 			);
 			dependencies = (
+				C9CE9A802638321D008C8B1E /* PBXTargetDependency */,
 			);
 			name = "Pods-STCAPIDemo";
 			productName = "Pods-STCAPIDemo";
 			productReference = D9124967F42D809ACC9EC679E9D279EF /* libPods-STCAPIDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C9C3C1ED263817B70071DF23 /* VoiceKeyPlatform */ = {
+		C9CE9A38263831C1008C8B1E /* VoiceKeyPortal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9C3C1FF263817B70071DF23 /* Build configuration list for PBXNativeTarget "VoiceKeyPlatform" */;
+			buildConfigurationList = C9CE9A4A263831C2008C8B1E /* Build configuration list for PBXNativeTarget "VoiceKeyPortal" */;
 			buildPhases = (
-				C9C3C1E9263817B70071DF23 /* Headers */,
-				C9C3C1EA263817B70071DF23 /* Sources */,
-				C9C3C1EB263817B70071DF23 /* Frameworks */,
-				C9C3C1EC263817B70071DF23 /* Resources */,
+				C9CE9A34263831C1008C8B1E /* Headers */,
+				C9CE9A35263831C1008C8B1E /* Sources */,
+				C9CE9A36263831C1008C8B1E /* Frameworks */,
+				C9CE9A37263831C1008C8B1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VoiceKeyPlatform;
-			productName = VoiceKeyPlatform;
-			productReference = C9C3C1EE263817B70071DF23 /* VoiceKeyPlatform.framework */;
+			name = VoiceKeyPortal;
+			productName = VoiceKeyPortal;
+			productReference = C9CE9A39263831C1008C8B1E /* VoiceKeyPortal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C9C3C1F5263817B70071DF23 /* VoiceKeyPlatformTests */ = {
+		C9CE9A40263831C1008C8B1E /* VoiceKeyPortalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9C3C202263817B70071DF23 /* Build configuration list for PBXNativeTarget "VoiceKeyPlatformTests" */;
+			buildConfigurationList = C9CE9A4D263831C2008C8B1E /* Build configuration list for PBXNativeTarget "VoiceKeyPortalTests" */;
 			buildPhases = (
-				C9C3C1F2263817B70071DF23 /* Sources */,
-				C9C3C1F3263817B70071DF23 /* Frameworks */,
-				C9C3C1F4263817B70071DF23 /* Resources */,
+				C9CE9A3D263831C1008C8B1E /* Sources */,
+				C9CE9A3E263831C1008C8B1E /* Frameworks */,
+				C9CE9A3F263831C1008C8B1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9C3C1F9263817B70071DF23 /* PBXTargetDependency */,
+				C9CE9A44263831C2008C8B1E /* PBXTargetDependency */,
 			);
-			name = VoiceKeyPlatformTests;
-			productName = VoiceKeyPlatformTests;
-			productReference = C9C3C1F6263817B70071DF23 /* VoiceKeyPlatformTests.xctest */;
+			name = VoiceKeyPortalTests;
+			productName = VoiceKeyPortalTests;
+			productReference = C9CE9A41263831C1008C8B1E /* VoiceKeyPortalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -345,10 +354,11 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1100;
 				TargetAttributes = {
-					C9C3C1ED263817B70071DF23 = {
+					C9CE9A38263831C1008C8B1E = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
-					C9C3C1F5263817B70071DF23 = {
+					C9CE9A40263831C1008C8B1E = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -367,22 +377,21 @@
 			projectRoot = "";
 			targets = (
 				8806F2659B23448B9C0395539253E85E /* Pods-STCAPIDemo */,
-				C9C3C1ED263817B70071DF23 /* VoiceKeyPlatform */,
-				C9C3C1F5263817B70071DF23 /* VoiceKeyPlatformTests */,
+				C9CE9A38263831C1008C8B1E /* VoiceKeyPortal */,
+				C9CE9A40263831C1008C8B1E /* VoiceKeyPortalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C9C3C1EC263817B70071DF23 /* Resources */ = {
+		C9CE9A37263831C1008C8B1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C3C2262638180F0071DF23 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C3C1F4263817B70071DF23 /* Resources */ = {
+		C9CE9A3F263831C1008C8B1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,49 +405,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C3C263263819CE0071DF23 /* VoiceKeyPlatform.framework in Sources */,
 				10668BD99DF0F5917D862EFC5AFCFC83 /* Pods-STCAPIDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C3C1EA263817B70071DF23 /* Sources */ = {
+		C9CE9A35263831C1008C8B1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C3C22E2638180F0071DF23 /* GroupURLProvider.swift in Sources */,
-				C9C3C2312638180F0071DF23 /* GroupListAdapter.swift in Sources */,
-				C9C3C2242638180F0071DF23 /* UserDefaultsHelper.swift in Sources */,
-				C9C3C2282638180F0071DF23 /* AuthParamProvider.swift in Sources */,
-				C9C3C22A2638180F0071DF23 /* APIKeyProvider.swift in Sources */,
-				C9C3C22F2638180F0071DF23 /* PersonIdProvider.swift in Sources */,
-				C9C3C2232638180F0071DF23 /* APIHelpers.swift in Sources */,
-				C9C3C2302638180F0071DF23 /* GroupIdProvider.swift in Sources */,
-				C9C3C22B2638180F0071DF23 /* SessionRequest.swift in Sources */,
-				C9C3C2272638180F0071DF23 /* SessionIdProvider.swift in Sources */,
-				C9C3C22D2638180F0071DF23 /* SessionService.swift in Sources */,
-				C9C3C2332638180F0071DF23 /* GroupService.swift in Sources */,
-				C9C3C2252638180F0071DF23 /* BaseService.swift in Sources */,
-				C9C3C2322638180F0071DF23 /* GroupRequest.swift in Sources */,
-				C9C3C2292638180F0071DF23 /* SessionURLProvider.swift in Sources */,
-				C9C3C22C2638180F0071DF23 /* SessionResultAdapter.swift in Sources */,
+				C9CE9A72263831F1008C8B1E /* SessionIdProvider.swift in Sources */,
+				C9CE9A6F263831F1008C8B1E /* APIHelpers.swift in Sources */,
+				C9CE9A6A263831F1008C8B1E /* PersonIdProvider.swift in Sources */,
+				C9CE9A73263831F1008C8B1E /* AuthParamProvider.swift in Sources */,
+				C9CE9A78263831F1008C8B1E /* SessionService.swift in Sources */,
+				C9CE9A70263831F1008C8B1E /* UserDefaultsHelper.swift in Sources */,
+				C9CE9A77263831F1008C8B1E /* SessionResultAdapter.swift in Sources */,
+				C9CE9A74263831F1008C8B1E /* SessionURLProvider.swift in Sources */,
+				C9CE9A6E263831F1008C8B1E /* GroupService.swift in Sources */,
+				C9CE9A6B263831F1008C8B1E /* GroupIdProvider.swift in Sources */,
+				C9CE9A76263831F1008C8B1E /* SessionRequest.swift in Sources */,
+				C9CE9A6D263831F1008C8B1E /* GroupRequest.swift in Sources */,
+				C9CE9A69263831F1008C8B1E /* GroupURLProvider.swift in Sources */,
+				C9CE9A75263831F1008C8B1E /* APIKeyProvider.swift in Sources */,
+				C9CE9AC42638388E008C8B1E /* VoiceKeyPortal-dummy.m in Sources */,
+				C9CE9A6C263831F1008C8B1E /* GroupListAdapter.swift in Sources */,
+				C9CE9A71263831F1008C8B1E /* BaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9C3C1F2263817B70071DF23 /* Sources */ = {
+		C9CE9A3D263831C1008C8B1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C3C1FC263817B70071DF23 /* VoiceKeyPlatformTests.swift in Sources */,
+				C9CE9A47263831C2008C8B1E /* VoiceKeyPortalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C9C3C1F9263817B70071DF23 /* PBXTargetDependency */ = {
+		C9CE9A44263831C2008C8B1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9C3C1ED263817B70071DF23 /* VoiceKeyPlatform */;
-			targetProxy = C9C3C1F8263817B70071DF23 /* PBXContainerItemProxy */;
+			target = C9CE9A38263831C1008C8B1E /* VoiceKeyPortal */;
+			targetProxy = C9CE9A43263831C2008C8B1E /* PBXContainerItemProxy */;
+		};
+		C9CE9A802638321D008C8B1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CE9A38263831C1008C8B1E /* VoiceKeyPortal */;
+			targetProxy = C9CE9A7F2638321D008C8B1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -600,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,9 +626,10 @@
 			};
 			name = Release;
 		};
-		C9C3C200263817B70071DF23 /* Debug */ = {
+		C9CE9A4B263831C2008C8B1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -627,18 +642,19 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = VoiceKeyPlatform/Info.plist;
+				INFOPLIST_FILE = VoiceKeyPortal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPlatform;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPortal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -646,9 +662,10 @@
 			};
 			name = Debug;
 		};
-		C9C3C201263817B70071DF23 /* Release */ = {
+		C9CE9A4C263831C2008C8B1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -657,15 +674,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VoiceKeyPlatform/Info.plist;
+				INFOPLIST_FILE = VoiceKeyPortal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPlatform;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPortal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -677,7 +694,7 @@
 			};
 			name = Release;
 		};
-		C9C3C203263817B70071DF23 /* Debug */ = {
+		C9CE9A4E263831C2008C8B1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -688,14 +705,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = VoiceKeyPlatformTests/Info.plist;
+				INFOPLIST_FILE = VoiceKeyPortalTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPlatformTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPortalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -703,21 +720,21 @@
 			};
 			name = Debug;
 		};
-		C9C3C204263817B70071DF23 /* Release */ = {
+		C9CE9A4F263831C2008C8B1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9Q3SP8M9U;
-				INFOPLIST_FILE = VoiceKeyPlatformTests/Info.plist;
+				INFOPLIST_FILE = VoiceKeyPortalTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPlatformTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stc.VoiceKeyPortalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -747,20 +764,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9C3C1FF263817B70071DF23 /* Build configuration list for PBXNativeTarget "VoiceKeyPlatform" */ = {
+		C9CE9A4A263831C2008C8B1E /* Build configuration list for PBXNativeTarget "VoiceKeyPortal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9C3C200263817B70071DF23 /* Debug */,
-				C9C3C201263817B70071DF23 /* Release */,
+				C9CE9A4B263831C2008C8B1E /* Debug */,
+				C9CE9A4C263831C2008C8B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9C3C202263817B70071DF23 /* Build configuration list for PBXNativeTarget "VoiceKeyPlatformTests" */ = {
+		C9CE9A4D263831C2008C8B1E /* Build configuration list for PBXNativeTarget "VoiceKeyPortalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9C3C203263817B70071DF23 /* Debug */,
-				C9C3C204263817B70071DF23 /* Release */,
+				C9CE9A4E263831C2008C8B1E /* Debug */,
+				C9CE9A4F263831C2008C8B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   VoiceKeyPortal:
-    :commit: 0d153feab99feafb38ba3061862023e4cf4f930f
+    :commit: 73a5636ffc6c8bdb79a259049d471d4690f9110e
     :git: https://github.com/STC-VoiceKey/voicekey-platform-api-ios.git
 
 SPEC CHECKSUMS:
