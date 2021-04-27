@@ -1,0 +1,21 @@
+PODS:
+  - VoiceKeyPortal (0.0.1)
+
+DEPENDENCIES:
+  - VoiceKeyPortal (from `https://github.com/STC-VoiceKey/voicekey-platform-api-ios.git`)
+
+EXTERNAL SOURCES:
+  VoiceKeyPortal:
+    :git: https://github.com/STC-VoiceKey/voicekey-platform-api-ios.git
+
+CHECKOUT OPTIONS:
+  VoiceKeyPortal:
+    :commit: 0d153feab99feafb38ba3061862023e4cf4f930f
+    :git: https://github.com/STC-VoiceKey/voicekey-platform-api-ios.git
+
+SPEC CHECKSUMS:
+  VoiceKeyPortal: f60d4a918b9dbd38d45853cda307c15fdf5791f0
+
+PODFILE CHECKSUM: 8298c5fff70ba7e52d4d9ff52d4809d326ed9465
+
+COCOAPODS: 1.9.3

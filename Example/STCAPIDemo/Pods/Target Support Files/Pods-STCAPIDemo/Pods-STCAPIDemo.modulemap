@@ -1,0 +1,6 @@
+module Pods_STCAPIDemo {
+  umbrella header "Pods-STCAPIDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

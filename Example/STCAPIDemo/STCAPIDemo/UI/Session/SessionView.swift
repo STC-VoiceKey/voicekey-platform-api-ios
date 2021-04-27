@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import VoiceKeyPlatformAPI
 
 struct SessionView: View {
     @State var isSessionExists = false

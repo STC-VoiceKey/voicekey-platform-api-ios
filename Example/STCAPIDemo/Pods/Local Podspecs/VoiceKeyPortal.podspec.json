@@ -1,0 +1,22 @@
+{
+  "name": "VoiceKeyPortal",
+  "version": "0.0.1",
+  "summary": "Multimodal Biometric Authentication Software System",
+  "homepage": "https://vkplatform.speechpro.com/",
+  "license": "MIT",
+  "authors": {
+    "alexandrasoloshcheva": "soloshcheva@speechpro.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/STC-VoiceKey/voicekey-platform-api-ios.git",
+    "tag": "0.0.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "source_files": "VoiceKeyPortal/**/*.{h,m,c,*.swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

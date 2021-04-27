@@ -17,22 +17,11 @@
 		C93648EB25764AA200E6EE9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93648EA25764AA200E6EE9D /* Preview Assets.xcassets */; };
 		C93648F625764AA200E6EE9D /* STCAPIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93648F525764AA200E6EE9D /* STCAPIDemoTests.swift */; };
 		C936490125764AA200E6EE9D /* STCAPIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936490025764AA200E6EE9D /* STCAPIDemoUITests.swift */; };
-		C936491725765F3B00E6EE9D /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936491625765F3B00E6EE9D /* UserDefaultsHelper.swift */; };
-		C936491F2576606900E6EE9D /* APIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936491E2576606900E6EE9D /* APIHelpers.swift */; };
-		C9364926257662A800E6EE9D /* SessionURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9364925257662A800E6EE9D /* SessionURLProvider.swift */; };
-		C936492E257662C900E6EE9D /* AuthParamProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936492D257662C900E6EE9D /* AuthParamProvider.swift */; };
-		C93649342576707B00E6EE9D /* SessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93649332576707B00E6EE9D /* SessionRequest.swift */; };
-		C936493C2576709400E6EE9D /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936493B2576709400E6EE9D /* SessionService.swift */; };
-		C9364942257678CB00E6EE9D /* APIKeyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9364941257678CB00E6EE9D /* APIKeyProvider.swift */; };
-		C9364977257921C200E6EE9D /* SessionIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9364976257921C200E6EE9D /* SessionIdProvider.swift */; };
 		C936497C2579370300E6EE9D /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936497B2579370300E6EE9D /* SessionView.swift */; };
 		C958BD7D257A81DC004B15B2 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C958BD7C257A81DC004B15B2 /* RequestView.swift */; };
-		C958BD8F258250B2004B15B2 /* SessionResultAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C958BD8E258250B2004B15B2 /* SessionResultAdapter.swift */; };
 		C95B8D85263176580050435C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95B8D84263176580050435C /* LaunchScreen.storyboard */; };
 		C95B8D8D263177180050435C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C95B8D8C263177180050435C /* logo.png */; };
 		C95B8DA32631B3780050435C /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B8DA22631B3780050435C /* ComingSoonView.swift */; };
-		C99119E325CC3AA5005CCB03 /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99119E225CC3AA5005CCB03 /* GroupService.swift */; };
-		C99119EE25CD3C39005CCB03 /* GroupListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99119ED25CD3C39005CCB03 /* GroupListAdapter.swift */; };
 		C99E6695261F56D4005B25EA /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E6694261F56D4005B25EA /* ColorHelper.swift */; };
 		C99E669E2625B468005B25EA /* SessionSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E669D2625B468005B25EA /* SessionSwitcherView.swift */; };
 		C99E66B12625C691005B25EA /* StyleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E66B02625C691005B25EA /* StyleHelper.swift */; };
@@ -49,10 +38,7 @@
 		C9B3BA6025D681C00025BA4B /* AddPersonsFromGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3BA5F25D681C00025BA4B /* AddPersonsFromGroupView.swift */; };
 		C9B7D37325C46577001D41BD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D37225C46577001D41BD /* GroupView.swift */; };
 		C9B7D37825C94449001D41BD /* GroupListIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D37725C94449001D41BD /* GroupListIView.swift */; };
-		C9E01F5125B6FA3F004937D8 /* GroupURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E01F5025B6FA3F004937D8 /* GroupURLProvider.swift */; };
-		C9E01F5625B6FC0D004937D8 /* GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E01F5525B6FC0D004937D8 /* GroupRequest.swift */; };
-		C9E01F5B25C028A9004937D8 /* PersonIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E01F5A25C028A9004937D8 /* PersonIdProvider.swift */; };
-		C9E01F6025C02C9D004937D8 /* GroupIdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E01F5F25C02C9D004937D8 /* GroupIdProvider.swift */; };
+		E981C3C8005E94187E75BC3D /* libPods-STCAPIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B92905090A07FB07F7687052 /* libPods-STCAPIDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +58,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C9C3C25A263819580071DF23 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		485E703704F3C343BA525675 /* Pods-STCAPIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCAPIDemo.debug.xcconfig"; path = "Target Support Files/Pods-STCAPIDemo/Pods-STCAPIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE2E60DF63C584031ED59B2 /* Pods-STCAPIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCAPIDemo.release.xcconfig"; path = "Target Support Files/Pods-STCAPIDemo/Pods-STCAPIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B92905090A07FB07F7687052 /* libPods-STCAPIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STCAPIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C905B01A262DAC6F00737EC3 /* GroupServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupServiceView.swift; sourceTree = "<group>"; };
 		C905B03B262DCEFB00737EC3 /* FilterMediaStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMediaStorageView.swift; sourceTree = "<group>"; };
 		C905B043262DCF1800737EC3 /* ResourceMediaStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceMediaStorageView.swift; sourceTree = "<group>"; };
@@ -89,22 +91,11 @@
 		C93648FC25764AA200E6EE9D /* STCAPIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCAPIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C936490025764AA200E6EE9D /* STCAPIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCAPIDemoUITests.swift; sourceTree = "<group>"; };
 		C936490225764AA200E6EE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C936491625765F3B00E6EE9D /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
-		C936491E2576606900E6EE9D /* APIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelpers.swift; sourceTree = "<group>"; };
-		C9364925257662A800E6EE9D /* SessionURLProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionURLProvider.swift; sourceTree = "<group>"; };
-		C936492D257662C900E6EE9D /* AuthParamProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthParamProvider.swift; sourceTree = "<group>"; };
-		C93649332576707B00E6EE9D /* SessionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRequest.swift; sourceTree = "<group>"; };
-		C936493B2576709400E6EE9D /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
-		C9364941257678CB00E6EE9D /* APIKeyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyProvider.swift; sourceTree = "<group>"; };
-		C9364976257921C200E6EE9D /* SessionIdProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdProvider.swift; sourceTree = "<group>"; };
 		C936497B2579370300E6EE9D /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		C958BD7C257A81DC004B15B2 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
-		C958BD8E258250B2004B15B2 /* SessionResultAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResultAdapter.swift; sourceTree = "<group>"; };
 		C95B8D84263176580050435C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C95B8D8C263177180050435C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		C95B8DA22631B3780050435C /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
-		C99119E225CC3AA5005CCB03 /* GroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
-		C99119ED25CD3C39005CCB03 /* GroupListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListAdapter.swift; sourceTree = "<group>"; };
 		C99E6694261F56D4005B25EA /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		C99E669D2625B468005B25EA /* SessionSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSwitcherView.swift; sourceTree = "<group>"; };
 		C99E66B02625C691005B25EA /* StyleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleHelper.swift; sourceTree = "<group>"; };
@@ -121,10 +112,6 @@
 		C9B3BA5F25D681C00025BA4B /* AddPersonsFromGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonsFromGroupView.swift; sourceTree = "<group>"; };
 		C9B7D37225C46577001D41BD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		C9B7D37725C94449001D41BD /* GroupListIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListIView.swift; sourceTree = "<group>"; };
-		C9E01F5025B6FA3F004937D8 /* GroupURLProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupURLProvider.swift; sourceTree = "<group>"; };
-		C9E01F5525B6FC0D004937D8 /* GroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRequest.swift; sourceTree = "<group>"; };
-		C9E01F5A25C028A9004937D8 /* PersonIdProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonIdProvider.swift; sourceTree = "<group>"; };
-		C9E01F5F25C02C9D004937D8 /* GroupIdProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupIdProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E981C3C8005E94187E75BC3D /* libPods-STCAPIDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +140,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027EC2D8A3F89912577D8982 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485E703704F3C343BA525675 /* Pods-STCAPIDemo.debug.xcconfig */,
+				8CE2E60DF63C584031ED59B2 /* Pods-STCAPIDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A26623498EF9F3462DE00A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B92905090A07FB07F7687052 /* libPods-STCAPIDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C905B017262DABE400737EC3 /* Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,17 +239,6 @@
 			path = MediaService;
 			sourceTree = "<group>";
 		};
-		C9363C9B25963F2D00DCBB53 /* Group */ = {
-			isa = PBXGroup;
-			children = (
-				C9E01F4F25B6F99C004937D8 /* UserDefaults */,
-				C9E01F5525B6FC0D004937D8 /* GroupRequest.swift */,
-				C99119E225CC3AA5005CCB03 /* GroupService.swift */,
-				C99119ED25CD3C39005CCB03 /* GroupListAdapter.swift */,
-			);
-			path = Group;
-			sourceTree = "<group>";
-		};
 		C93648D725764AA200E6EE9D = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +246,8 @@
 				C93648F425764AA200E6EE9D /* STCAPIDemoTests */,
 				C93648FF25764AA200E6EE9D /* STCAPIDemoUITests */,
 				C93648E125764AA200E6EE9D /* Products */,
+				027EC2D8A3F89912577D8982 /* Pods */,
+				4A26623498EF9F3462DE00A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,7 +271,6 @@
 				C93648E325764AA200E6EE9D /* STCAPIDemoApp.swift */,
 				C93648EC25764AA200E6EE9D /* Info.plist */,
 				C9363C882592242200DCBB53 /* UI */,
-				C93649112576558200E6EE9D /* Framework */,
 				C93648E925764AA200E6EE9D /* Preview Content */,
 			);
 			path = STCAPIDemo;
@@ -307,55 +302,6 @@
 			path = STCAPIDemoUITests;
 			sourceTree = "<group>";
 		};
-		C93649112576558200E6EE9D /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				C936491225765EA200E6EE9D /* Helpers */,
-				C93649232576614100E6EE9D /* Session */,
-				C9363C9B25963F2D00DCBB53 /* Group */,
-				C93649242576614A00E6EE9D /* MediaStorage */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		C936491225765EA200E6EE9D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				C936491625765F3B00E6EE9D /* UserDefaultsHelper.swift */,
-				C936491E2576606900E6EE9D /* APIHelpers.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		C93649232576614100E6EE9D /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				C9364932257662D700E6EE9D /* UserDefaults */,
-				C93649332576707B00E6EE9D /* SessionRequest.swift */,
-				C936493B2576709400E6EE9D /* SessionService.swift */,
-				C958BD8E258250B2004B15B2 /* SessionResultAdapter.swift */,
-			);
-			path = Session;
-			sourceTree = "<group>";
-		};
-		C93649242576614A00E6EE9D /* MediaStorage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MediaStorage;
-			sourceTree = "<group>";
-		};
-		C9364932257662D700E6EE9D /* UserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				C9364925257662A800E6EE9D /* SessionURLProvider.swift */,
-				C936492D257662C900E6EE9D /* AuthParamProvider.swift */,
-				C9364941257678CB00E6EE9D /* APIKeyProvider.swift */,
-				C9364976257921C200E6EE9D /* SessionIdProvider.swift */,
-			);
-			path = UserDefaults;
-			sourceTree = "<group>";
-		};
 		C99E6693261F56BE005B25EA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,16 +330,6 @@
 			path = Groups;
 			sourceTree = "<group>";
 		};
-		C9E01F4F25B6F99C004937D8 /* UserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				C9E01F5025B6FA3F004937D8 /* GroupURLProvider.swift */,
-				C9E01F5A25C028A9004937D8 /* PersonIdProvider.swift */,
-				C9E01F5F25C02C9D004937D8 /* GroupIdProvider.swift */,
-			);
-			path = UserDefaults;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -401,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C936490525764AA200E6EE9D /* Build configuration list for PBXNativeTarget "STCAPIDemo" */;
 			buildPhases = (
+				2E6676F8E74FCB6BF3382A82 /* [CP] Check Pods Manifest.lock */,
 				C93648DC25764AA200E6EE9D /* Sources */,
 				C93648DD25764AA200E6EE9D /* Frameworks */,
 				C93648DE25764AA200E6EE9D /* Resources */,
+				C9C3C25A263819580071DF23 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -456,7 +394,7 @@
 		C93648D825764AA200E6EE9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					C93648DF25764AA200E6EE9D = {
@@ -520,47 +458,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E6676F8E74FCB6BF3382A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STCAPIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C93648DC25764AA200E6EE9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9364977257921C200E6EE9D /* SessionIdProvider.swift in Sources */,
-				C9E01F5125B6FA3F004937D8 /* GroupURLProvider.swift in Sources */,
 				C9B7D37325C46577001D41BD /* GroupView.swift in Sources */,
 				C9363C9D25963F5C00DCBB53 /* MediaStorageView.swift in Sources */,
 				C9B7D37825C94449001D41BD /* GroupListIView.swift in Sources */,
-				C9364942257678CB00E6EE9D /* APIKeyProvider.swift in Sources */,
 				C95B8DA32631B3780050435C /* ComingSoonView.swift in Sources */,
 				C9B3BA5125D578F10025BA4B /* DeletePersonFromGroupView.swift in Sources */,
 				C905B01B262DAC6F00737EC3 /* GroupServiceView.swift in Sources */,
-				C958BD8F258250B2004B15B2 /* SessionResultAdapter.swift in Sources */,
 				C9B3BA5B25D681AD0025BA4B /* DeletePersonsFromGroupView.swift in Sources */,
 				C99E6695261F56D4005B25EA /* ColorHelper.swift in Sources */,
-				C936491F2576606900E6EE9D /* APIHelpers.swift in Sources */,
 				C9B3BA4C25D2E3C90025BA4B /* GroupPersonsView.swift in Sources */,
-				C93649342576707B00E6EE9D /* SessionRequest.swift in Sources */,
 				C9B3BA3D25D298BF0025BA4B /* GroupByPersonView.swift in Sources */,
 				C9B3BA5625D587E70025BA4B /* AddPerson2GroupView.swift in Sources */,
 				C936497C2579370300E6EE9D /* SessionView.swift in Sources */,
-				C99119E325CC3AA5005CCB03 /* GroupService.swift in Sources */,
-				C936492E257662C900E6EE9D /* AuthParamProvider.swift in Sources */,
-				C9364926257662A800E6EE9D /* SessionURLProvider.swift in Sources */,
-				C936493C2576709400E6EE9D /* SessionService.swift in Sources */,
 				C958BD7D257A81DC004B15B2 /* RequestView.swift in Sources */,
 				C9B3BA3425CD94950025BA4B /* GroupCreationView.swift in Sources */,
-				C9E01F5B25C028A9004937D8 /* PersonIdProvider.swift in Sources */,
 				C9B3BA4225D2CF5E0025BA4B /* GroupDeleterView.swift in Sources */,
 				C99E669E2625B468005B25EA /* SessionSwitcherView.swift in Sources */,
 				C9B3BA4725D2DEB30025BA4B /* GroupCheckView.swift in Sources */,
 				C905B03C262DCEFB00737EC3 /* FilterMediaStorageView.swift in Sources */,
-				C936491725765F3B00E6EE9D /* UserDefaultsHelper.swift in Sources */,
-				C99119EE25CD3C39005CCB03 /* GroupListAdapter.swift in Sources */,
 				C99E66B12625C691005B25EA /* StyleHelper.swift in Sources */,
 				C9B3BA6025D681C00025BA4B /* AddPersonsFromGroupView.swift in Sources */,
-				C9E01F5625B6FC0D004937D8 /* GroupRequest.swift in Sources */,
 				C99E66C226270FC5005B25EA /* PrivilegesView.swift in Sources */,
-				C9E01F6025C02C9D004937D8 /* GroupIdProvider.swift in Sources */,
 				C905B044262DCF1800737EC3 /* ResourceMediaStorageView.swift in Sources */,
 				C93648E625764AA200E6EE9D /* ContentView.swift in Sources */,
 				C99E66B92625FB01005B25EA /* DomainsView.swift in Sources */,
@@ -718,6 +666,7 @@
 		};
 		C936490625764AA200E6EE9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485E703704F3C343BA525675 /* Pods-STCAPIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = corporateColdBlue;
@@ -740,6 +689,7 @@
 		};
 		C936490725764AA200E6EE9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE2E60DF63C584031ED59B2 /* Pods-STCAPIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = corporateColdBlue;
